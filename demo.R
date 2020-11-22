@@ -14,6 +14,5 @@ Options:
 library(docopt)
 opt <- docopt(doc)
 print(opt)
-print(opt['arg4'])
 print(typeof(opt))
-print(typeof(opt['arg4]))
+
